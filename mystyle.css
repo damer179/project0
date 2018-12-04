@@ -1,0 +1,40 @@
+body {
+  background-color: #87ceeb;
+}
+body h1 {
+  color: #003366;
+  margin-left: 20px;
+}
+body #mainpage {
+  background-color: #FFFF00;
+  cursor: grab;
+}
+body .menus {
+  color: #003366;
+  margin-left: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: #FFFF00;
+  }
+}
+.playing-guitar, .coding, .mountain-biking {
+  border: 5px solid #000;
+  padding: 10px;
+  color: #333;
+}
+
+.mountain-biking {
+  color: blue;
+}
+
+.coding {
+  color: green;
+}
+
+.playing-guitar {
+  color: red;
+}
+
+/*# sourceMappingURL=mystyle.css.map */

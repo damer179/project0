@@ -1,0 +1,58 @@
+$yellow-color: #FFFF00;
+
+$skyblue-color: #87ceeb;
+
+$navyblue-color: #003366;
+
+
+
+body {
+    background-color: $skyblue-color;
+
+
+	h1 {
+		color: $navyblue-color;
+		margin-left: 20px;
+	}
+
+	#mainpage { 
+		background-color: $yellow-color;
+		cursor: grab;
+	}
+
+	.menus {
+		color: $navyblue-color;
+		margin-left: 20px;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	body {
+		background-color: $yellow-color;
+	}
+}
+		
+	
+%hobbies-shared {
+  border: 5px solid #000;
+  padding: 10px;
+  color: #333;
+}
+
+.mountain-biking {
+  @extend %hobbies-shared;
+  color: blue;
+}
+
+.coding {
+  @extend %hobbies-shared;
+  color: green;
+}
+
+.playing-guitar {
+  @extend %hobbies-shared;
+  color: red;
+}
+
+	
+
